@@ -121,6 +121,15 @@ Data parsejada: 2025-04-01 00:00:00
 ✅ Inscripció enviada! Temps total: 1500.25 ms
 ```
 
+## Advertència important
+
+## Importants Advertències
+
+L'script ha sigut provat per l'autor, no obstant això, l'autor d'aquest repositori no es fa responsable si la inscripció no es completa o si es produeixen errors durant el procés d'inscripció. Aquest script automatitza la interacció amb el portal CEFIRE, però pot estar subjecte a canvis en la pàgina web o en els mecanismes de seguretat, com el CAPTCHA. Assegura't de revisar que la inscripció s'haja completat correctament després d'executar l'script.
+
+Aquest script és proporcionat "tal qual" i s'utilitza sota el teu propi risc. L'ús d'aquest script per qualsevol fi no autoritzat o en contravenció de les condicions del portal CEFIRE és responsabilitat de l'usuari.
+
+
 ## Entrenament de l'OCR
 
 Si vols reentrenar el model que resol el captcha, ho pots fer amb el següent script de python.
