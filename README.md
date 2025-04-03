@@ -38,7 +38,7 @@ L'id del curs seria `12688077`.
 ```env .env.example
    # Exemple de fitxer .env per a la configuració del projecte
 
-   # ID del curs per inscriure's.
+   # ID del curs per inscriure's
    ID_CURS=12345678
 
    # NIF o NIE de l'usuari
@@ -57,16 +57,16 @@ L'id del curs seria `12688077`.
    EMAIL=juan.perez@example.com
 
    # Nom del centre
-   CENTRO_NOMBRE=IES Jaume II "El Just"
+   CENTRE=IES Jaume II "El Just"
 
    # Localitat del centre
-   CENTRO_LOCALIDAD=Tavernes de la Valldigna
+   LOCALITAT_CENTRE=Tavernes de la Valldigna
 
    # Especialitat de la persona
-   ESPECIALIDAD=SAI
+   ESPECIALITAT=SAI
 
    # Càrrec laboral (veure les opcions disponibles)
-   CARGO=sin cargo
+   CARREC=sin cargo
    '''
       "sin cargo" -> Sense càrrec
       "tutor_coordinador" -> Tutor / Coordinador
@@ -77,7 +77,7 @@ L'id del curs seria `12688077`.
 
 
    # Situació laboral (veure les opcions disponibles)
-   SITUACION_LABORAL=
+   SITUACIO_LABORAL=3
    ''' 
       3 -> Funcionari de carrera definitiu
       2 -> Funcionari de carrera provisional
@@ -85,7 +85,6 @@ L'id del curs seria `12688077`.
       1 -> Funcionari interí
       0 -> En borsa / Altres
    '''
-
 ```
 
 Aquestes variables s'utilitzen per omplir el formulari de registre.
